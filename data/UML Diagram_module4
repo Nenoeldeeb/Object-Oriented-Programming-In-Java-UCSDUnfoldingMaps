@@ -1,0 +1,11 @@
+Marker( interface
+    AbstractMarker( <Object>
+        SimplePointMarker(
+            EarthquakeMarker( abstract
+                LandquakeMarker()
+                OceanquakeMarker()
+            )
+            CityMarker()
+        )
+    )
+)
